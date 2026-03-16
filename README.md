@@ -1,6 +1,16 @@
 # FastAPI REST API Template
 
-Backend starter template for API-driven products with JWT authentication, CRUD endpoints, and PostgreSQL integration.
+Production-style FastAPI backend starter with JWT authentication, CRUD endpoints, and PostgreSQL-ready architecture.
+
+This repository is designed as a portfolio project for API-driven applications such as startup MVPs, internal tools, SaaS backends, and client portals. It demonstrates how to organize a backend in a way that is clean, extendable, and aligned with real freelance requirements.
+
+## Portfolio Highlights
+
+- JWT-based authentication flow
+- Modular CRUD route structure
+- SQLAlchemy models and service layer separation
+- SQLite local demo with PostgreSQL-ready configuration
+- Docker and Makefile support for faster setup
 
 ## Stack
 
@@ -36,6 +46,14 @@ Backend starter template for API-driven products with JWT authentication, CRUD e
 - `Makefile`: shortcut commands for install and run
 - `Dockerfile`: containerized demo setup
 
+## API Demo Flow
+
+1. Register a user through `POST /auth/register`
+2. Log in through `POST /auth/login`
+3. Create an item through `POST /items/?owner_id=1`
+4. Fetch the item through `GET /items/{item_id}`
+5. Verify service health through `GET /health`
+
 ## Upwork Positioning
 
 Use this project to show that you can deliver a clean API foundation for MVPs, admin systems, marketplaces, and internal tools.
@@ -70,3 +88,7 @@ Docker demo:
 - Register a user, then log in to generate a JWT token
 - Show `/items` endpoints as CRUD examples
 - Explain that `DATABASE_URL` can switch from SQLite to PostgreSQL without changing route structure
+
+## Why This Project Works In A Portfolio
+
+Clients looking for backend help usually want more than a single endpoint. This project shows application structure, security basics, persistence, and code organization in a way that is easy to discuss during technical screening or proposal conversations.
