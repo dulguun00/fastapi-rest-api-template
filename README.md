@@ -4,6 +4,9 @@ Production-style FastAPI backend starter with JWT authentication, CRUD endpoints
 
 This repository is designed as a portfolio project for API-driven applications such as startup MVPs, internal tools, SaaS backends, and client portals. It demonstrates how to organize a backend in a way that is clean, extendable, and aligned with real freelance requirements.
 
+Portfolio cover reference:
+`../../assets/fastapi-cover.svg`
+
 ## Portfolio Highlights
 
 - JWT-based authentication flow
